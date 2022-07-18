@@ -5,7 +5,7 @@ import AnotherChildren from "./AnotherChildren";
 
 const Base = () => {
 	return (
-		<Mother color="blue">
+		<Mother color="blue" firstChildren={<ChildrenComponent number={10} />}>
 			<ChildrenComponent number={1} />
 			<AnotherChildren number={2} />
 		</Mother>

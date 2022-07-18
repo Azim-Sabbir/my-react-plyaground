@@ -1,15 +1,18 @@
 import React from "react";
 
 const Mother = ({children}) => {
-	return (
-		<>
-			<div className={'FancyBorder FancyBorder-'}>
-				{/* eslint-disable-next-line array-callback-return */}
-				{children.map((child) => {
-					return child;
-				})}
-			</div>
-		</>
-	);
+    console.log(children)
+    return (
+        <>
+            <div className={'FancyBorder FancyBorder-'}>
+                {
+                    children.map((child) => {
+                        return child;
+                    })
+                }
+                {children.firstChildren}
+            </div>
+        </>
+    );
 }
 export default Mother;
