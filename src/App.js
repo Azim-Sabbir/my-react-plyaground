@@ -4,6 +4,7 @@ import {Clock} from "./components/Clock";
 import ExampleForm from "./components/ExampleForm";
 import Calculator from "./components/Calculator";
 import Base from "./components/composition-vs-inheritence/mother-children/Base";
+import FilterableProductTable from "./components/thinking-in-react/FilterableProductTable";
 
 function App() {
 	const exampleObj = {
@@ -20,6 +21,8 @@ function App() {
 			<Calculator />
 			<br/><br/><br/><hr/>
 			<Base />
+			<br/><br/><br/><hr/>
+			<FilterableProductTable />
 		</>
 	);
 }
