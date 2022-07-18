@@ -17,6 +17,7 @@ const FilterableProductTable = () => {
     ];
 
     return (
+
         <div>
             <SearchBar
                 filterText={filterText}
