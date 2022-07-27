@@ -4,8 +4,8 @@ import SearchBar from "./SearchBar";
 import ProductTable from "./ProductTable";
 
 const FilterableProductTable = () => {
-    const [filterText, setFilterText] = useState("");
-    const [inStockOnly, setInStockOnly] = useState(false);
+    const [filterText] = useState("");
+    const [inStockOnly] = useState(false);
 
     const PRODUCTS = [
         {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
